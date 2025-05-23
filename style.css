@@ -53,6 +53,20 @@ header > p{
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.347);
 }
 
+header > p.cabecalho{
+    
+  margin-left: 0;
+  padding-left: 0;
+  text-align: left;
+  margin-top: -22px;
+  padding: 0px;
+  font-family: var(--fonte-padrão);
+  font-size: 0.8em;
+  padding-bottom: -20px;
+
+}
+
+
 nav{
     background-color: var(--cor-05);
     padding: 10px;
