@@ -6,11 +6,11 @@
     --fonte-padrão: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', cursive;
 
-    --cor-01: #A4BDBF;
-    --cor-02: #D9BB96;
-    --cor-03: #734F2F;
-    --cor-04: #BF9D7E;
-    --cor-05: #594539;
+    --cor-01: #84B9BF;
+    --cor-02: #45858C;
+    --cor-03: #044159;
+    --cor-04: #011F26;
+    --cor-05: #021215c0;
 
 }
 
@@ -21,13 +21,13 @@ padding: 0px;
 }
 
 body{
-    background-color: #d9bb9679;
+    background-color: #84B9BF;
     font-family: var(--fonte-padrão);
 
 }
 
 header{
-    background-image: linear-gradient(to bottom, var(--cor-02), var(--cor-05));
+    background-image: linear-gradient(to bottom, var(--cor-03), var(--cor-05));
     min-height: 150px;
     text-align: center;
     padding-top: 30px;
@@ -101,7 +101,7 @@ main p {
 }
 
 main strong{
-    color: #352922;
+    color: #011F26;
     font-weight: bolder;
     
 }
@@ -110,7 +110,7 @@ main a{
     text-decoration: none;
     font-weight: bold;
     color: var(--cor-05);
-    background-color: var(--cor-02);
+    background-color: var(--cor-01);
     padding: 2px 4px;
 }
 
